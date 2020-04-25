@@ -15,8 +15,8 @@ app.use(express.static("public"));
 
 
 
-const url = "mongodb+srv://LewisKlein:M@ngusta1qw2Megust@@mangusta-58qhz.gcp.mongodb.net/newdb";
-mongoose.connect(url, {useUnifiedTopology: true, useNewUrlParser: true});
+  mongoose.connect('mongodb+srv://root:0995@cluster0-2j0z7.mongodb.net/newdb', {useUnifiedTopology: true, useNewUrlParser: true  });
+
 
 
 const itemsSchema = new mongoose.Schema({
